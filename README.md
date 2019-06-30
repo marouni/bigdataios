@@ -1,5 +1,5 @@
 # bigdataios
-Comparing Bigdata IOs
+Comparing Bigdata IOs, the complete code examples of the my Scio vs. Beam talk that I gave for Nantes Scala User Group : https://blog.marouni.fr/nantes-scala-meetup/
 
 # How to run Spark Drivers
 ```bash
