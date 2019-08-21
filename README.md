@@ -1,5 +1,5 @@
 # bigdataios
-Comparing Bigdata IOs
+Accompanying code to the talk I gave for the Nantes Scala meetup.
 
 # How to run Spark Drivers
 ```bash

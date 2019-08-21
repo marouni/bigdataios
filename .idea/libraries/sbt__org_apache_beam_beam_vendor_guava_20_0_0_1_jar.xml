@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="sbt: org.apache.beam:beam-vendor-guava-20_0:0.1:jar">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.beam/beam-vendor-guava-20_0/jars/beam-vendor-guava-20_0-0.1.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
