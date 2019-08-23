@@ -5,6 +5,7 @@ import com.spotify.scio.ContextAndArgs
 import com.spotify.scio.avro._
 import com.spotify.scio.parquet.avro._
 import com.spotify.scio.values.SCollection
+import fr.marouni.bigdata.io.avro.User
 
 object AvroDriver extends App {
 

@@ -4,7 +4,7 @@
 		module="bigdata-ios_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20190616113556"
+		publication="20190823222243"
 	>
 		<description>
 		bigdata-ios
@@ -48,8 +48,8 @@
 		<dependency org="com.spotify" name="scio-cassandra2_2.11" rev="0.8.0-alpha1" conf="compile->default(compile)"/>
 		<dependency org="com.spotify" name="scio-bigtable_2.11" rev="0.8.0-alpha1" conf="compile->default(compile)"/>
 		<dependency org="com.spotify" name="scio-elasticsearch6_2.11" rev="0.8.0-alpha1" conf="compile->default(compile)"/>
-		<dependency org="org.apache.avro" name="avro-ipc" rev="1.8.2" conf="compile->default(compile);test->default(compile)"/>
-		<dependency org="org.apache.avro" name="avro" rev="1.8.2" conf="test->default(compile)"/>
+		<dependency org="org.apache.avro" name="avro-ipc" rev="1.8.2" conf="compile->default(compile)"/>
+		<dependency org="org.apache.avro" name="avro" rev="1.8.2" conf="compile->default(compile)"/>
 		<dependency org="org.scalamacros" name="paradise_2.11.12" rev="2.1.0" conf="plugin->default(compile)"/>
 	</dependencies>
 </ivy-module>

@@ -16,6 +16,8 @@ initialize in Compile ~= { _ => System.setProperty(
   "fr.marouni.bigdata.io.scio.bigquery.MyOverrideTypeProvider")
 }
 
+compileOrder := CompileOrder.JavaThenScala
+
 // scalacOptions += "-Ymacro-debug-lite"
 
 libraryDependencies += "org.apache.spark" %% "spark-core" % sparkVersion
@@ -39,8 +41,7 @@ libraryDependencies += "com.spotify" %% "scio-bigtable" % scioVersion
 libraryDependencies += "com.spotify" %% "scio-elasticsearch6" % scioVersion
 
 libraryDependencies += "org.apache.avro" % "avro-ipc" % "1.8.2"
-libraryDependencies += "org.apache.avro" % "avro-ipc" % "1.8.2" % "test"
-libraryDependencies += "org.apache.avro" % "avro" % "1.8.2" % "test"
+libraryDependencies += "org.apache.avro" % "avro" % "1.8.2"
 
 addCompilerPlugin("org.scalamacros" % "paradise" % "2.1.0" cross CrossVersion.full)
 
