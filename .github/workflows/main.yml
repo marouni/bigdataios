@@ -1,4 +1,4 @@
-name: CI
+name: Compile and sanity tests
 
 on:
   push:
@@ -15,4 +15,5 @@ jobs:
     - name: compile the scala code
       run: |
         echo "Compiling the Scala code using SBT"
-        sbt clean compile
+        sbt sbtVersion
+        sbt clean
